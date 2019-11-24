@@ -1,0 +1,17 @@
+.\objects\sysinit_8xx.o: ..\common\chip\sysinit_8xx.c
+.\objects\sysinit_8xx.o: ..\common\board\board.h
+.\objects\sysinit_8xx.o: ..\common\chip\chip.h
+.\objects\sysinit_8xx.o: ..\common\chip\lpc_types.h
+.\objects\sysinit_8xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sysinit_8xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\sysinit_8xx.o: ..\common\chip\cmsis.h
+.\objects\sysinit_8xx.o: ..\common\CMSIS\core_cm0plus.h
+.\objects\sysinit_8xx.o: ..\common\CMSIS\core_cmInstr.h
+.\objects\sysinit_8xx.o: ..\common\CMSIS\cmsis_armcc.h
+.\objects\sysinit_8xx.o: ..\common\CMSIS\core_cmFunc.h
+.\objects\sysinit_8xx.o: ..\common\chip\syscon_8xx.h
+.\objects\sysinit_8xx.o: ..\common\chip\clock_8xx.h
+.\objects\sysinit_8xx.o: ..\common\chip\fmc_8xx.h
+.\objects\sysinit_8xx.o: ..\common\chip\ioswm_8xx.h
+.\objects\sysinit_8xx.o: ..\common\board\board_api.h
+.\objects\sysinit_8xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

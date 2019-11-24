@@ -1,0 +1,14 @@
+.\objects\syscon_8xx.o: ..\common\chip\syscon_8xx.c
+.\objects\syscon_8xx.o: ..\common\chip\chip.h
+.\objects\syscon_8xx.o: ..\common\chip\lpc_types.h
+.\objects\syscon_8xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\syscon_8xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\syscon_8xx.o: ..\common\chip\cmsis.h
+.\objects\syscon_8xx.o: ..\common\CMSIS\core_cm0plus.h
+.\objects\syscon_8xx.o: ..\common\CMSIS\core_cmInstr.h
+.\objects\syscon_8xx.o: ..\common\CMSIS\cmsis_armcc.h
+.\objects\syscon_8xx.o: ..\common\CMSIS\core_cmFunc.h
+.\objects\syscon_8xx.o: ..\common\chip\syscon_8xx.h
+.\objects\syscon_8xx.o: ..\common\chip\clock_8xx.h
+.\objects\syscon_8xx.o: ..\common\chip\fmc_8xx.h
+.\objects\syscon_8xx.o: ..\common\chip\ioswm_8xx.h

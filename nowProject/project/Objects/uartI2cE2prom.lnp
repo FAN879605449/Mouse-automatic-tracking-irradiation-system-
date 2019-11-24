@@ -1,0 +1,18 @@
+--cpu Cortex-M0+ --scatter "./RTE/Device/LPC824M201JHI33/LPC824_flash.scf"
+".\objects\main.o"
+".\objects\board.o"
+".\objects\clock_8xx.o"
+".\objects\ioswm_8xx.o"
+".\objects\syscon_8xx.o"
+".\objects\sysinit_8xx.o"
+".\objects\keil_startup_lpc82x.o"
+".\objects\gpio_8xx.o"
+".\objects\i2c_8xx.o"
+".\objects\ring_buffer.o"
+".\objects\uart_8xx.o"
+".\objects\dma_8xx.o"
+"G:\Keil_v5\ARM\CMSIS\5.0.1\CMSIS\Lib\ARM\arm_cortexM0l_math.lib"
+--strict --scatter ".\Objects\uartI2cE2prom.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\uartI2cE2prom.map" -o .\Objects\uartI2cE2prom.axf

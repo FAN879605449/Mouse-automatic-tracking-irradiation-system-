@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: terry tang, tju, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+C:\Users\nxf42527\Desktop\nowProject\project\uartI2cE2prom.uvprojx
+Project File Date:  11/21/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+..\application\main.c(188): warning:  #174-D: expression has no effect
+                        for(i=0;i<6000;i++)             
+_NOP;       // ????>5us????????????10us
+..\application\main.c(194): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<600;i++)              
+_NOP;       // ????>5us????????????10us
+..\application\main.c(196): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(198): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(203): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<600;i++)              
+_NOP;       // ????>5us????????????10us
+..\application\main.c(205): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(207): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(215): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<600;i++)              
+_NOP;       // ????>5us????????????10us
+..\application\main.c(217): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(219): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(224): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<600;i++)              
+_NOP;       // ????>5us????????????10us
+..\application\main.c(226): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(228): warning:  #174-D: expression has no effect
+                                                                for(i=0;i<200;i++)              
+_NOP;    // delay
+..\application\main.c(235): warning:  #1-D: last line of file ends without a newline
+  }
+..\application\main.c(146): warning:  #177-D: variable "status"  was declared but never referenced
+                uint32_t status;
+..\application\main.c(12): warning:  #177-D: variable "i2cmXferRec"  was declared but never referenced
+  static I2CM_XFER_T  i2cmXferRec;  //I2CM transfer record
+..\application\main.c(15): warning:  #177-D: variable "remained"  was declared but never referenced
+  static int remained = 0;
+..\application\main.c: 17 warnings, 0 errors
+linking...
+Program Size: Code=4720 RO-data=1164 RW-data=68 ZI-data=1532  
+".\Objects\uartI2cE2prom.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: DSP Version: 1.5.1
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.LPC824_DFP.12.0.0.pack
+                NXP.LPC824_DFP.12.0.0
+                Device Family Pack for LPC824
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  G:\Keil_v5\ARM\CMSIS\5.0.1\CMSIS\Include
+  G:\Keil_v5\NXP\LPC824_DFP\12.0.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:DSP:1.5.1
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM0l_math.lib
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
